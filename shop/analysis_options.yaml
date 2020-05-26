@@ -1,0 +1,9 @@
+include: package:pedantic/analysis_options.1.8.0.yaml
+
+analyzer:
+  enable-experiment:
+    - control-flow-collections
+
+linter:
+  rules:
+    - prefer_spread_collections
